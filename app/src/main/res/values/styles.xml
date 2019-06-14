@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme1">
+        <item name="normalTextColor">@color/theme1normalTextColor</item>
+        <item name="mediumTextColor">@color/theme1mediumTextColor</item>
+        <item name="highTextColor">@color/theme1highTextColor</item>
+        <item name="buttonBgColor">@color/theme1buttonBgColor</item>
+        <item name="buttonTextColor">@color/theme1buttonTextColor</item>
+        <item name="bgColor">@color/theme1bgColor</item>
+        <item name="cardColor">@color/theme1cardColor</item>
+        <item name="android:actionBarStyle">@style/firstActionBar</item>
+    </style>
+
+    <style name="Theme2">
+        <item name="normalTextColor">@color/theme2normalTextColor</item>
+        <item name="mediumTextColor">@color/theme2mediumTextColor</item>
+        <item name="highTextColor">@color/theme2highTextColor</item>
+        <item name="buttonBgColor">@color/theme2buttonBgColor</item>
+        <item name="buttonTextColor">@color/theme2buttonTextColor</item>
+        <item name="bgColor">@color/theme2bgColor</item>
+        <item name="cardColor">@color/theme2cardColor</item>
+        <item name="android:actionBarStyle">@style/secondActionBar</item>
+    </style>
+
+    <style name="firstActionBar" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">#ffcccc</item>
+        <item name="android:titleTextStyle">@style/firstTextStyle</item>
+    </style>
+
+    <style name="secondActionBar" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">#bd1717</item>
+        <item name="android:titleTextStyle">@style/secondTextStyle</item>
+    </style>
+
+    <style name="firstTextStyle" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">#9C27B0</item>
+    </style>
+
+    <style name="secondTextStyle" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">#2196F3</item>
+    </style>
+</resources>

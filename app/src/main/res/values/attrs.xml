@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="background">
+        <attr name="bgColor" format="color" />
+    </declare-styleable>
+    <attr name="normalTextColor" format="color" />
+    <attr name="mediumTextColor" format="color" />
+    <attr name="highTextColor" format="color" />
+    <attr name="buttonBgColor" format="color" />
+    <attr name="buttonTextColor" format="color" />
+    <attr name="cardColor" format="color" />
+
+</resources>

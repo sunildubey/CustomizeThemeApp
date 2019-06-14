@@ -1,0 +1,75 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/bgColor"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin">
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="@string/welcome"
+        android:textColor="?attr/normalTextColor"
+        android:textSize="30sp" />
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/layout_profile"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:elevation="8dp"
+        app:cardBackgroundColor="?attr/cardColor"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="4dp"
+        app:cardMaxElevation="6dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hi"
+                android:textColor="?attr/normalTextColor"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/userName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/theme_application"
+                android:textColor="?attr/mediumTextColor"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/apply_theme_btn"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="8dp"
+                android:background="?attr/buttonBgColor"
+                android:gravity="center"
+                android:text="@string/OK"
+                android:textColor="?attr/buttonTextColor"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+
+</LinearLayout>
