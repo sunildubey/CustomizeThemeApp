@@ -23,6 +23,7 @@ public class ThemePreferenceActivity extends PreferenceActivity {
 		super.onCreate(savedInstanceState);
 		addPreferencesFromResource(R.xml.preferences);
 		findPreference("theme").setOnPreferenceChangeListener(new RefershActivityOnPreferenceChangeListener(RESULT_CODE_THEME_UPDATED));
+		getActionBar().setTitle(getString(R.string.settings));
 	}
 	
     private class RefershActivityOnPreferenceChangeListener implements OnPreferenceChangeListener {

@@ -15,7 +15,7 @@
     <color name="theme21bgColor">#FFFFFF</color>
     <color name="theme2highTextColor">#526A7E</color>
     <color name="theme2mediumTextColor">#515786</color>
-    <color name="theme2normalTextColor">#E98E8E</color>
+    <color name="theme2normalTextColor">#000000</color>
     <color name="theme2buttonBgColor">#673AB7</color>
     <color name="theme2buttonTextColor">#8BC34A</color>
     <color name="theme2cardColor">#F44336</color>
